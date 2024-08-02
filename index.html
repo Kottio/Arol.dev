@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>GroceryList</title>
+  </head>
+  <body>
+    <section id="Grocery-Container">
+      <h1 id="Main-title">GROCERY LIST</h1>
+      <div id="form-container">
+        <h4>Add a new Item</h4>
+        <form id="New-items-form">
+          <input
+            class="Input-forms"
+            type="text"
+            id="Item-name"
+            placeholder="Name of the item"
+            style="width: 50%"
+          />
+          <input
+            class="Input-forms"
+            type="text"
+            id="item-quantity"
+            placeholder="Amount"
+            style="width: 25%"
+          />
+          <button style="width: 9%" class="Input-forms" type="submit">
+            Add
+          </button>
+          <p class="ErrorMessage"></p>
+        </form>
+      </div>
+      <section id="list-section">
+        <h3 id="list-title">My List</h3>
+
+        <div id="List-container">
+          <ul id="Itemlist">
+            <!-- <li class="list-element">
+                <div>
+                  <input class="items-elements" type="checkbox"  id="item-checkbox"/>
+                  <span class="items-elements items-text">Item Number 1</span>
+                </div>
+
+                <div>
+                  <span class="items-elements items-text">3 Units</span>
+                  <button class="Input-forms button-list items-elements" >Delete</button>
+                </div>
+            </li> -->
+          </ul>
+        </div>
+      </section>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
